@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<script src="./validation1.js"></script>
+<h1>
+    <title>Validation Form</title>
+    <meta charset="utf-8" />
+</h1>
+
+<body>
+    <form id="contact info" action="">
+        <p id="Fname">
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname" value="">
+        </p>
+        <br>
+        <p id="Lname">
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname" value="">
+        </p>
+        <br>
+        <p id="Gender">
+            <label for="gender">Gender:<br></label>
+            <select name="gender" id="gender">
+            <option value="Null"></option>
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+          </select>
+        </p>
+        <br>
+        <p id="State">
+            <label for="state">State:<br></label>
+            <select name="state" id="state">
+          <option value="Null"></option>
+          <option value="California ">California</option>
+          <option value="Florida ">Florida</option>
+          <option value="New York ">New York</option>
+          <option value="Texas ">Texas</option>
+          <option value="Hawaii ">Hawaii</option>
+          <option value="Washington ">Washington</option>
+          <option value="Colorado ">Colorado</option>
+          <option value="Virginia ">Virginia</option>
+          <option value="Iowa ">Iowa</option>
+          <option value="Arizona ">Arizona</option>
+        </select>
+        </p>
+        <br><br>
+        <input onCLick="validate()" type="button" id="continue" name="continue" value="Continue" />
+    </form>
+
+
+
+</body>
+
+</html>
